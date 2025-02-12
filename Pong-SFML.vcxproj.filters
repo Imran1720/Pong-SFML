@@ -42,58 +42,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Gameplay\Boundary\Boundary.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Gameplay\Ball\Ball.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Gameplay\Paddle\Paddle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Gameplay\GameplayManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Event\EventManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Utility\TimeService.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\UIService.cpp">
+    <ClCompile Include="Source\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source\Core\GameWindowManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Event\EventManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header\Gameplay\Ball\Ball.h">
-      <Filter>Header Files\Header\GamePlay\Ball</Filter>
-    </ClInclude>
-    <ClInclude Include="Header\Gameplay\Boundary\Boundary.h">
-      <Filter>Header Files\Header\GamePlay\Boundary</Filter>
+    <ClInclude Include="Header\Core\GameWindowManager.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Header\Event\EventManager.h">
-      <Filter>Header Files\Header\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="Header\Gameplay\GameplayManager.h">
-      <Filter>Header Files\Header\GamePlay</Filter>
-    </ClInclude>
-    <ClInclude Include="Header\Core\GameWindowManager.h">
-      <Filter>Header Files\Header\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Header\Gameplay\Paddle\Paddle.h">
-      <Filter>Header Files\Header\GamePlay\Paddle</Filter>
-    </ClInclude>
-    <ClInclude Include="Header\Utility\TimeService.h">
-      <Filter>Header Files\Header\Utility</Filter>
-    </ClInclude>
-    <ClInclude Include="Header\UI\UIService.h">
-      <Filter>Header Files\Header\UI</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
