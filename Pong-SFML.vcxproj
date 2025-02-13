@@ -133,7 +133,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Source\Core\GameLoop.cpp" />
+    <ClCompile Include="Source\Event\EventManager.cpp" />
+    <ClCompile Include="Source\Gameplay\Ball\Ball.cpp" />
+    <ClCompile Include="Source\Gameplay\Boundary\Boundary.cpp" />
+    <ClCompile Include="Source\Gameplay\GameplayManager.cpp" />
+    <ClCompile Include="Source\Gameplay\Paddle\Paddle.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Core\GameWindowManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\Core\GameLoop.h" />
+    <ClInclude Include="Header\Core\GameWindowManager.h" />
+    <ClInclude Include="Header\Event\EventManager.h" />
+    <ClInclude Include="Header\Gameplay\Ball\Ball.h" />
+    <ClInclude Include="Header\Gameplay\Boundary\Boundary.h" />
+    <ClInclude Include="Header\Gameplay\GameplayManager.h" />
+    <ClInclude Include="Header\Gameplay\Paddle\Paddle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
