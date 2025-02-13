@@ -18,7 +18,7 @@ namespace Gameplay
 	{
 		const RectangleShape& player1Paddle = player1->getPaddleSprite();
 		const RectangleShape& player2Paddle = player2->getPaddleSprite();
-
+	
 		FloatRect ball_bounds = pong_ball_sprite.getGlobalBounds();
 		FloatRect player1_bounds = player1Paddle.getGlobalBounds();
 		FloatRect player2_bounds = player2Paddle.getGlobalBounds();
