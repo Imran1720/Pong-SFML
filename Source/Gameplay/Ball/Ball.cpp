@@ -23,8 +23,19 @@ namespace Gameplay
 
 	void Ball::initializeVariables()
 	{
+		pong_ball_texture.setSmooth(true);
 		pong_ball_sprite.setTexture(pong_ball_texture);
 		pong_ball_sprite.setScale(scale_x, scale_y);
 		pong_ball_sprite.setPosition(Vector2f(position_x, position_y));
+	}
+
+	void Ball::move()
+	{
+		pong_ball_sprite.move(velocity);
+	}
+
+	void Ball::update()
+	{
+		move();
 	}
 }

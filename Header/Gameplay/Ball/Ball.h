@@ -20,8 +20,12 @@ namespace Gameplay
 		const float position_x = 960.0f;
 		const float position_y = 540.0f;
 
+		float ball_speed = 0.5f;
+		Vector2f velocity = Vector2f(ball_speed,ball_speed);
+
 		void loadTexture();
 		void initializeVariables();
+		void move();
 
 	public:
 		Ball();
