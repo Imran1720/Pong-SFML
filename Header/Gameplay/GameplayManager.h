@@ -1,9 +1,11 @@
 #pragma once
 #include "Ball/Ball.h"
 #include "Paddle/Paddle.h"
-#include "../../Header/Event/EventManager.h"
+#include "Boundary/Boundary.h"
+#include "../Event/EventManager.h"
 
 using namespace Events;
+using namespace GameBoundary;
 
 namespace Gameplay
 {
@@ -21,6 +23,7 @@ namespace Gameplay
 		Paddle* player1;
 		Paddle* player2;
 		EventManager* event_manager;
+		Boundary* bounday;
 
 		void initialize();
 
