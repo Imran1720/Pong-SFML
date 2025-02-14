@@ -26,6 +26,8 @@ namespace UI
 		float right_score_position_y = 20.0f;
 
 		int player1_score = 0;
+		int player2_score = 0;
+		string formatScore(int score);
 
 	public:
 		UIService();
@@ -33,5 +35,8 @@ namespace UI
 		void createLeftScoreText();
 		void createRightScoreText();
 		void render(RenderWindow* game_window);
+		void incrementPlayer1Score();
+		void incrementPlayer2Score();
+		void update();
 	};
 }
