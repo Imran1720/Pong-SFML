@@ -6,6 +6,7 @@ namespace Gameplay
 	{
 		event_manager = manager;
 		bounday = new Boundary();
+		ui_service = new UIService();
 		time_service = new TimeService();
 		time_service->initialize();
 		initialize();
@@ -27,6 +28,7 @@ namespace Gameplay
 		player1->render(game_window);
 		player2->render(game_window);
 		bounday->render(game_window);
+		ui_service->render(game_window);
 
 	}
 
