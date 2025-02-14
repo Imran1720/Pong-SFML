@@ -141,6 +141,7 @@
     <ClCompile Include="Source\Gameplay\Paddle\Paddle.cpp" />
     <ClCompile Include="Source\Main.cpp" />
     <ClCompile Include="Source\Core\GameWindowManager.cpp" />
+    <ClCompile Include="Source\Sounds\SoundManager.cpp" />
     <ClCompile Include="Source\UI\UIService.cpp" />
     <ClCompile Include="Source\Utility\TimeService.cpp" />
   </ItemGroup>
@@ -152,6 +153,7 @@
     <ClInclude Include="Header\Gameplay\Boundary\Boundary.h" />
     <ClInclude Include="Header\Gameplay\GameplayManager.h" />
     <ClInclude Include="Header\Gameplay\Paddle\Paddle.h" />
+    <ClInclude Include="Header\Sound\SoundManager.h" />
     <ClInclude Include="Header\UI\UIService.h" />
     <ClInclude Include="Header\Utility\TimeService.h" />
   </ItemGroup>

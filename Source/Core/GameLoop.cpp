@@ -1,5 +1,6 @@
 #include "../../Header/Core/GameLoop.h"
 
+
 namespace Core
 {
 	void GameLoop::initialize()
@@ -7,6 +8,7 @@ namespace Core
 		game_window_manager = new GameWindowManager();
 		event_manager = new EventManager();
 		gameplay_Manager = new GameplayManager(event_manager);
+		sound_manager = new SoundManager();
 		game_window_manager->initialize();
 	}
 
