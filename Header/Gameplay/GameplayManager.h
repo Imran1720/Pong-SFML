@@ -38,6 +38,8 @@ namespace Gameplay
 		void update();
 
 		void render(RenderWindow* game_window);
-
+		void updateScore();
+		void resetPlayers();
+		
 	};
 }

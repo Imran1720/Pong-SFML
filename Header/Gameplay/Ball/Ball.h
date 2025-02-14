@@ -44,6 +44,10 @@ namespace Gameplay
 		float delay_duration = 2.0f;
 		BallState current_state;
 
+		bool had_left_collision = false;
+		bool had_right_collision = false;
+
+
 		void loadTexture();
 		void initializeVariables();
 		void move(TimeService* time_service);
@@ -58,6 +62,12 @@ namespace Gameplay
 		void handleOutofBoundCollision();
 		void reset();
 		void onCollision(Paddle* player1, Paddle* player2);
+
+		bool isLeftCollisionOccurred();
+		void updateLeftCollisionState(bool value);
+
+		bool isRightCollisionOccurred();
+		void updateRightCollisionState(bool value);
 
 	};
 }

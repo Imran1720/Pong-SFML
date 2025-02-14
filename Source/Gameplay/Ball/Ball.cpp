@@ -49,12 +49,13 @@ namespace Gameplay
 
 		if (ball_bounds.left <= left_boundary)
 		{
+			updateLeftCollisionState(true);
 			reset();
 		}
 
 		if (ball_bounds.left + ball_bounds.width >= right_boundary)
 		{
-			//std::cout << "right boundary touched"<<std::endl;
+			updateRightCollisionState(true);
 			reset();
 		}
 	}
@@ -122,5 +123,24 @@ namespace Gameplay
 				return;
 			}
 		}
+	}
+
+	bool Ball::isLeftCollisionOccurred()
+	{
+		return had_left_collision;
+	}
+	void Ball::updateLeftCollisionState(bool value)
+	{
+		had_left_collision = value;
+	}
+
+	bool Ball::isRightCollisionOccurred()
+	{
+		return had_right_collision;
+	}
+
+	void Ball::updateRightCollisionState(bool value)
+	{
+		had_right_collision = value;
 	}
 }
